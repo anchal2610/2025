@@ -1,5 +1,7 @@
 import { data1, data2 } from "@/data/data"
 import AnimateOnScroll from "@/utilities/scrollAnimation"
+import AnimateLeftOnScroll from "@/utilities/scrollAnimationLeft"
+import AnimateRightOnScroll from "@/utilities/scrollAnimationRight"
 
 export default function ThirdPage() {
       return (
@@ -9,23 +11,23 @@ export default function ThirdPage() {
                         <div className="flex flex-col w-full ">
 
                               {data1.map((data, index) => (
-                                    <AnimateOnScroll>
-                                          <div key={index} className="flex flex-row mb-8 ">
+                                    <AnimateLeftOnScroll>
+                                          <div key={index} className="flex flex-row mb-8  ">
                                                 <div className="text-end mr-6">
                                                       <h2 className="text-bold text-blue-500 text-2xl">{data.title}</h2>
                                                       <p className="text-semibold text-l">{data.description}</p>
                                                 </div>
                                                 <img src={data.image.src} className='w-[60px] object-contain ' />
                                           </div>
-                                    </AnimateOnScroll>
+                                    </AnimateLeftOnScroll>
                               ))}
 
                         </div>
-                        <img src="./bg-3.png" className="md:w-[300px] md:h-[300px] object-contain md:mb-0 mb-6 mx-auto md:mx-12" />
+                        <img src="./bg-3.png" className="md:w-[300px] md:h-[300px]  object-contain md:mb-0 mb-6 mx-auto md:mx-12" />
 
                         <div className="flex flex-col w-full ">
                               {data2.map((data, index) => (
-                                    <AnimateOnScroll>
+                                    <AnimateRightOnScroll>
                                           <div key={index} className="flex flex-row mb-8 ">
                                                 <img src={data.image.src} className=' w-[60px] object-contain ' />
                                                 <div className=" ml-6">
@@ -34,7 +36,7 @@ export default function ThirdPage() {
                                                 </div>
 
                                           </div>
-                                    </AnimateOnScroll>
+                                    </AnimateRightOnScroll>
                               ))}
 
                         </div>

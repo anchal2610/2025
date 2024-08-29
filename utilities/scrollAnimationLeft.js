@@ -5,11 +5,11 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 const boxVariant = {
-      visible: { opacity: 1, translateX: -50, transition: { duration: 0.8 } },
+      visible: { opacity: 1, translateX: 50, transition: { duration: 0.9 } },
       hidden: { opacity: 0, translateX: 0 },
 };
 
-const AnimateRightOnScroll = ({ children }) => {
+const AnimateLeftOnScroll = ({ children }) => {
       const control = useAnimation();
       const [ref, inView] = useInView();
 
@@ -28,7 +28,7 @@ const AnimateRightOnScroll = ({ children }) => {
                   className=""
                   ref={ref}
                   variants={boxVariant}
-                  initial={{ x: 50 }}
+                  initial={{ x: -50 }}
                   animate={control}
             >
                   {children}
@@ -36,4 +36,4 @@ const AnimateRightOnScroll = ({ children }) => {
       );
 };
 
-export default AnimateRightOnScroll;
+export default AnimateLeftOnScroll;

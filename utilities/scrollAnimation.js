@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 const boxVariant = {
-      visible: { opacity: 1, translateY: -50, transition: { duration: 1 } },
+      visible: { opacity: 1, translateY: -50, transition: { duration: 1.3 } },
       hidden: { opacity: 0, translateY: 0 },
 };
 

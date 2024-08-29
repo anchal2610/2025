@@ -4,8 +4,7 @@ import {
       FaFacebook,
       FaTwitter,
       FaInstagram,
-      FaEnvelope,
-      FaPhone,
+
       FaLinkedin,
 } from "react-icons/fa";
 
@@ -14,11 +13,11 @@ import {
 
 export default function FirstPage() {
       return (
-            <div className="w-full -mt-[4em] object-contain overflow-hidden ">
+            <div className="w-full -mt-[3em] object-contain overflow-hidden md:mb-12 ">
                   <img
                         src="/bg-main.png"
                         alt="main bg"
-                        className="w-full  object-cover md:object-fill min-h-screen md:max-h-screen  opacity-95 "
+                        className="w-full  object-cover md:object-fill min-h-screen md:max-h-screen   opacity-95 "
 
 
                   />
