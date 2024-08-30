@@ -12,7 +12,7 @@ export default function Header() {
                   <header className=" hidden md:block  bg-blue-900 md:sticky top-0 z-50  opacity-1 overflow-hidden ">
 
                         <div className=" flex md:flex-row   mt-2 items-center  justify-between mx-12 ">
-                              <button className="px-[1em] py-[.5em] rounded-full  text-2xl  text-white ml-6 tracking-widest">TNW</button>
+                              <button className="px-[1em] py-[.5em] rounded-full  text-3xl  text-white ml-6 tracking-widest">TNW</button>
                               <nav className=" flex flex-row mt-2 items-center justify-center  ">
                                     <Link href='/'
                                           className="text-white mx-4 text-xl">
