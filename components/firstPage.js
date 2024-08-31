@@ -7,6 +7,7 @@ import {
 
       FaLinkedin,
 } from "react-icons/fa";
+import MenuBar from "./menuBar";
 
 
 
@@ -21,6 +22,9 @@ export default function FirstPage() {
 
 
                   />
+                  <div className="block md:hidden absolute top-0 right-2 ">
+                        <MenuBar />
+                  </div>
                   <div className="flex flex-col  items-start justify-between  md:w-1/2 absolute top-1/3 left-5 md:top-[55%] md:left-[5%] z-60">
 
                         <AnimateRightOnScroll>
