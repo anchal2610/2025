@@ -18,16 +18,16 @@ export default function MenuBar() {
                         <CloseOutlinedIcon className='text-bold text-4xl absolute right-2' onClick={() => setOpen(false)} />
                         <div className='text-bold text-2xl text-center text-blue-500 pt-1 tracking-widest'>TNW</div>
                         <div className='flex flex-col justify-between items-start py-8 '>
-                              <div className='border-b-2 border-blue-500 w-full my-8'>
+                              <div className='border-b-2 border-gray-500 w-full my-8'>
                                     <Link href='/' className='text-xl text-start  pl-2'>Home</Link>
                               </div>
-                              <div className='border-b-2 border-blue-500 w-full my-8'>
+                              <div className='border-b-2 border-gray-500 w-full my-8'>
                                     <Link href='/' className='text-xl text-start  pl-2'>Services</Link>
                               </div>
-                              <div className='border-b-2 border-blue-500 w-full my-8'>
+                              <div className='border-b-2 border-gray-500 w-full my-8'>
                                     <Link href='/' className='text-xl text-start  pl-2'>Portfolio</Link>
                               </div>
-                              <div className='border-b-2 border-blue-500 w-full my-8'>
+                              <div className='border-b-2 border-gray-500 w-full my-8'>
                                     <Link href='/' className='text-xl text-start  pl-2'>Testimonial</Link>
                               </div>
                         </div>

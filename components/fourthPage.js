@@ -29,7 +29,9 @@ export default function FourthPage() {
                               </AnimateOnScroll>
                         ))}
                   </div>
+
                   <Counter />
+
 
             </main>
       )
