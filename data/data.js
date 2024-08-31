@@ -50,14 +50,14 @@ export const testimonial = [
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis"
       },
       {
-            name: "Mike Ross",
-            designation: "CEO",
+            name: "John Doe",
+            designation: "Co-Founder",
             image: profileIcon,
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis"
       },
       {
-            name: "Mike Ross",
-            designation: "CEO",
+            name: "Chris Evans",
+            designation: "CTO",
             image: profileIcon,
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis"
       },
