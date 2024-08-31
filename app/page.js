@@ -1,4 +1,5 @@
 import FirstPage from "@/components/firstPage";
+import FourthPage from "@/components/fourthPage";
 import SecondPage from "@/components/secondPage";
 import ThirdPage from "@/components/thirdPage";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <FirstPage />
       <SecondPage />
       <ThirdPage />
+      <FourthPage />
     </main>
   );
 }
