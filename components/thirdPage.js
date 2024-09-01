@@ -11,15 +11,17 @@ export default function ThirdPage() {
                         <div className="flex flex-col w-full ">
 
                               {data1.map((data, index) => (
-                                    <AnimateLeftOnScroll>
-                                          <div key={index} className="flex flex-row mb-8  ">
-                                                <div className="text-end mr-6">
-                                                      <h2 className="text-bold text-blue-500 text-2xl">{data.title}</h2>
-                                                      <p className="text-semibold text-l">{data.description}</p>
+                                    <div key={index}>
+                                          <AnimateLeftOnScroll>
+                                                <div className="flex flex-row mb-8  ">
+                                                      <div className="text-end mr-6">
+                                                            <h2 className="text-bold text-blue-500 text-2xl">{data.title}</h2>
+                                                            <p className="text-semibold text-l">{data.description}</p>
+                                                      </div>
+                                                      <img src={data.image.src} className='w-[60px] object-contain ' />
                                                 </div>
-                                                <img src={data.image.src} className='w-[60px] object-contain ' />
-                                          </div>
-                                    </AnimateLeftOnScroll>
+                                          </AnimateLeftOnScroll>
+                                    </div>
                               ))}
 
                         </div>
@@ -27,16 +29,18 @@ export default function ThirdPage() {
 
                         <div className="flex flex-col w-full ">
                               {data2.map((data, index) => (
-                                    <AnimateRightOnScroll>
-                                          <div key={index} className="flex flex-row mb-8 ">
-                                                <img src={data.image.src} className=' w-[60px] object-contain ' />
-                                                <div className=" ml-6">
-                                                      <h2 className="text-bold text-blue-500 text-2xl">{data.title}</h2>
-                                                      <p className="text-semibold text-l">{data.description}</p>
-                                                </div>
+                                    <div key={index}>
+                                          <AnimateRightOnScroll>
+                                                <div className="flex flex-row mb-8 ">
+                                                      <img src={data.image.src} className=' w-[60px] object-contain ' />
+                                                      <div className=" ml-6">
+                                                            <h2 className="text-bold text-blue-500 text-2xl">{data.title}</h2>
+                                                            <p className="text-semibold text-l">{data.description}</p>
+                                                      </div>
 
-                                          </div>
-                                    </AnimateRightOnScroll>
+                                                </div>
+                                          </AnimateRightOnScroll>
+                                    </div>
                               ))}
 
                         </div>
