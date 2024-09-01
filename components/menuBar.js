@@ -16,7 +16,12 @@ export default function MenuBar() {
                   </button>
                   <Drawer anchor="right" size="sm" open={open} onClose={() => setOpen(false)}>
                         <CloseOutlinedIcon className='text-bold text-4xl absolute right-2' onClick={() => setOpen(false)} />
-                        <div className='text-bold text-2xl text-center text-blue-500 pt-1 tracking-widest'>TNW</div>
+                        <Link href="/" className='mx-auto'>
+                              <img
+                                    src="tnw4white.svg"
+                                    className="h-16 w-24   hover:scale-[1.1] "
+                              />
+                        </Link>
                         <div className='flex flex-col justify-between items-start py-8 '>
                               <div className='border-b-2 border-gray-500 w-full my-8'>
                                     <Link href='/' className='text-xl text-start  pl-2'>Home</Link>

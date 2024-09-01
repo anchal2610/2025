@@ -15,7 +15,12 @@ export default function Footer() {
 
                   <div className="flex md:flex-row flex-col pb-8 justify-center  z-60">
                         <div className="flex flex-col md:mx-20">
-                              <h1 className="text-blue-500 tracking-widest text-3xl mb-10">TNW</h1>
+                              <div >
+                                    <img
+                                          src="tnw4white.svg"
+                                          className="h-16 w-24   hover:scale-[1.1] "
+                                    />
+                              </div>
                               <p className="text-white w-[300px] text-l mb-4">Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
                               <h2 className="text-xl text-blue-500">Follow us</h2>
                               <div className="flex items-center justify-center   md:justify-start mt-2">
