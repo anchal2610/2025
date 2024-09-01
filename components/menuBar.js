@@ -13,7 +13,7 @@ export default function MenuBar() {
             <div className="  md:hidden bg-blue-900 ">
                   <Box sx={{ display: 'flex', justifyContent: "end", marginRight: "10px" }} >
                         <button onClick={() => setOpen(true)}>
-                              <MenuOpenOutlinedIcon className='text-bold text-4xl text-white' />
+                              <MenuOpenOutlinedIcon className='font-bold  text-6xl text-white' />
                         </button>
                         <Drawer anchor="right" size="sm" open={open} onClose={() => setOpen(false)}>
                               <CloseOutlinedIcon className='text-bold text-4xl absolute top-0 right-2 ' onClick={() => setOpen(false)} />
