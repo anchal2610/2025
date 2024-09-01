@@ -5,7 +5,7 @@ import formBg from '../assets/form-bg.png'
 export default function FifthPage() {
       return (
             <main className="bg-white w-full min-h-screen overflow-hidden ">
-                  <h2 className="md:text-[1.875rem] text-2xl text-center  text-blue-500 mt-[2em] mb-[2em]">Contact Us</h2>
+                  <h2 className="md:text-[1.875rem] text-2xl text-center  text-blue-500 mt-[2em] mb-[2.5em]">Contact Us</h2>
                   <div className="grid md:grid-cols-2 grid-cols-1 md:gap-2 gap-16 md:mx-28 mx-12 ">
 
                         <AnimateLeftOnScroll>

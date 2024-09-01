@@ -10,7 +10,8 @@ export default function MenuBar() {
       const [open, setOpen] = useState(false)
 
       return (
-            <div className="  md:hidden bg-blue-900 ">
+            <div className="  sticky top-0 z-50 p-[0.8em] opacity-1 md:hidden bg-blue-900 ">
+
                   <Box sx={{ display: 'flex', justifyContent: "end", marginRight: "10px" }} >
                         <button onClick={() => setOpen(true)}>
                               <MenuOpenOutlinedIcon className='font-bold  text-6xl text-white' />
