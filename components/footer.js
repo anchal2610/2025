@@ -5,7 +5,7 @@ import {
 
       FaLinkedin,
 } from "react-icons/fa";
-import { CiLocationOn, CiPhone } from 'react-icons/ci'
+import { CiLocationOn } from 'react-icons/ci'
 import { LuPhoneCall, LuMail } from 'react-icons/lu'
 
 export default function Footer() {

@@ -64,19 +64,19 @@ export const testimonial = [
       {
             name: "Mike Ross",
             designation: "CEO",
-            image: deliverIcon,
+            image: profileIcon,
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis"
       },
       {
             name: "Mike Ross",
             designation: "CEO",
-            image: deliverIcon,
+            image: profileIcon,
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis"
       },
       {
             name: "Mike Ross",
             designation: "CEO",
-            image: deliverIcon,
+            image: profileIcon,
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis.at vehicula nulla lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nisl vel nisi molestie, at vehicula nulla lobortis"
       },
 ]
