@@ -23,7 +23,7 @@ export default function Counter() {
                         >
                               {({ countUpRef }) => (
                                     <div>
-                                          <span className='text-center text-green-500 text-bold text-xl' ref={countUpRef} />
+                                          <span className='text-center text-green-500 font-bold text-xl' ref={countUpRef} />
 
                                     </div>
                               )}
@@ -43,7 +43,7 @@ export default function Counter() {
                         >
                               {({ countUpRef }) => (
                                     <div>
-                                          <span className='text-center text-green-500 text-bold  text-xl' ref={countUpRef} />
+                                          <span className='text-center text-green-500 font-bold  text-xl' ref={countUpRef} />
 
                                     </div>
                               )}
@@ -63,7 +63,7 @@ export default function Counter() {
                         >
                               {({ countUpRef }) => (
                                     <div>
-                                          <span className='text-center text-green-500 text-bold  text-xl' ref={countUpRef} />
+                                          <span className='text-center text-green-500 font-bold  text-xl' ref={countUpRef} />
 
                                     </div>
                               )}

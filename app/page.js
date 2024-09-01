@@ -1,3 +1,4 @@
+import FifthPage from "@/components/fifthPage";
 import FirstPage from "@/components/firstPage";
 import FourthPage from "@/components/fourthPage";
 import SecondPage from "@/components/secondPage";
@@ -11,6 +12,7 @@ export default function Home() {
       <SecondPage />
       <ThirdPage />
       <FourthPage />
+      <FifthPage />
     </main>
   );
 }
