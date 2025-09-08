@@ -1,20 +1,31 @@
-# Base image
-FROM node:18-alpine
-
-# Set working directory
+# -----------------
+# Build stage
+# -----------------
+FROM node:18-alpine AS builder
 WORKDIR /app
 
-# Copy package files first (for caching)
+# Copy package files and install deps
 COPY package*.json ./
+RUN npm install
 
-# Install dependencies
-RUN npm install --production
-
-# Copy source code
+# Copy source and build
 COPY . .
+RUN npm run build
 
-# Expose port (change if your app uses another port)
+# -----------------
+# Production stage
+# -----------------
+FROM node:18-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+
+# Copy only necessary files
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/next.config.js ./   # if exists
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+
 EXPOSE 3000
 
-# Start the app
 CMD ["npm", "start"]
